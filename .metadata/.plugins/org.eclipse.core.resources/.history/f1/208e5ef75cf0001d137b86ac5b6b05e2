@@ -1,0 +1,45 @@
+package principal;
+
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int numero1= 10;
+		int numero2 = 10;
+		boolean verdadeiro = false;
+		
+		if(numero1 >= numero2) {
+			System.out.println("numero 1 é o maior");
+		}
+		else {
+			System.out.println("numero 2 é o maior");
+		}
+		if(!verdadeiro == true) {
+			System.out.println("Verdadeiro");
+		}	
+		else {
+			System.out.println("Falso");
+		}
+	
+		//exemplo usando resto da divisão 
+		
+		Scanner leia = new Scanner(System.in);
+		
+		int numero;
+			System.out.println("Entra com um numero para saber se é par ou impar");
+			
+		numero = leia.nextInt();
+		leia.close();
+		
+		if(numero % 2 == 0) {
+			System.out.println("Número par!");
+		}
+		else {
+			System.out.println("Numero impar!");
+		}
+	}
+
+}

@@ -1,0 +1,13 @@
+package principal;
+
+public class horas_trabalhadas {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner horas = new Scanner(System.in);
+		
+		
+	}
+
+}

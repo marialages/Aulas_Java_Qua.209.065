@@ -1,0 +1,14 @@
+package principal;
+
+import java.util.Scanner;
+
+public class horastrabalhadas {
+
+	Scanner horas = new Scanner(System.in);
+	
+	double valorPorHora;
+	int horasTrabalhadas;
+	
+	
+	
+}
