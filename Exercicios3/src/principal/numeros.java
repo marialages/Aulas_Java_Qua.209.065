@@ -40,7 +40,7 @@ public class numeros {
 		else {
 			System.out.println("O maior numero é:" + numero3);
 		}
-		
+		numero.close();
 		}
 	}
 

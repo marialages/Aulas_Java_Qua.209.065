@@ -11,11 +11,17 @@ public class ano_bissexto {
 		
 		int ano;
 		
-		System.out.println("Digita  o ano :");
+		
+		System.out.println("Digita  o ano:");
 		ano = anoBissexto.nextInt();
 		
-		
-
+		if(ano % 4 == 0 ) {
+			System.out.println("ano é bissexto!");
+		}else {
+			System.out.println("ano não é bissexto!");
+		}
+		anoBissexto.close();
 	}
 
 }
+
