@@ -27,18 +27,42 @@ public class JogoDados {
 	System.out.println(dado3);
 	
 	int soma = dado1 + dado2 + dado3;
+	System.out.println("Soma total dos dados é:" + soma );
 	
+	if((dado1 == dado2|| dado1 == dado3 || dado2 == dado3)) {
+		if(dado1 == dado2 && dado2 == dado3) {
+			System.out.println("Sortudo.Ganhou mais 6 pontos");
+			soma = soma + 6;
+			System.out.println(soma);
+		}
+		else {
+			System.out.println("Ganhou mais 2 pontos de bonus");
+			soma = soma + 2;
+			System.out.println(soma);
+		}
+	}
 	
-	if((dado1 == dado2)&& (dado1 == dado3)){
-		System.out.println("jogador gamhou 2 pontos!"+ soma + 2);
-	}else if ((dado1 == dado2 )&& (dado1 == dado3)){
-		System.out.println("Você é muito sortudo!"+ soma + 6);
-	}else if(soma < 15) {
+	if(soma >= 15) {
+		System.out.println("Parabens , você ganhou!");
+	}
+	else {
+		System.out.println("Infelizmente você perdeu");
+	}
+	
+	/*if((dado1 == dado2)|| (dado1 == dado3)){
+		System.out.println("Você ganhou 2 pontos! =" + (soma + 2));
+	}else if((dado1 == dado2 )|| (dado1 == dado3)){
+		System.out.println("Você é muito sortudo,ganhou 6 pontos!= " + (soma + 6));
+	}
+	if ((dado2 == dado3)|| (dado2 == dado1)) {
+		System.out.println("Você ganhou 2 pontos! =" + (soma + 2));	
+	}
+	if(soma < 15) {
 		System.out.println("Lamento mas você perdeu!!");
 	}else if(soma > 15) {
 		System.out.println("Parabens ,você ganhou!!");
 	}else {
 		System.out.println("Fim jogo");
-	}
+	}*/
 		}
 	}
