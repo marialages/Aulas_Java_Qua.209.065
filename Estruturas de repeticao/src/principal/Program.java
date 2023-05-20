@@ -11,6 +11,7 @@ public class Program {
 		for (int i = 0; i < 10; i++) {
 			System.out.println(i);//i de intera ;incremento
 		}
+		System.out.println("__________________________________________");
 		
 		// while usado quando não sabemos a quantidade de vezes que vai repetir 
 		int i = 0;
@@ -29,8 +30,19 @@ public class Program {
 			System.out.println("Deseja continuar?");
 			opcao = sc.next().charAt(0);
 		}
-		System.out.println("Entrou no while:" + j);
+		System.out.println("Entrou no while:" + j);		
+		System.out.println("_______________________________________");
+		
+		//do while,garante que sera executado o bloco de codigo ao menos uma vez 
+		int k = 0;
+		do {
+			System.out.println("Deseja continuar?");
+			opcao = sc.next().charAt(0);	
+			k++;
+		}while(opcao == 's');
+		System.out.println("Entrou no do while:" + k);
 		sc.close();
+
 		
 		}
 	}
