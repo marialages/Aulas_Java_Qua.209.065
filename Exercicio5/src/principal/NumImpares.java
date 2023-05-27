@@ -10,7 +10,7 @@ public class NumImpares {
 		2 Altere o primeiro programa para mostrar a soma dos números impares
 		3 altere novamente o programa para mostrar os números impares um abaixo do outro e depois um ao lado do outro*/
 	
-		/*for(int contador = 0; contador < 10; contador++){
+		//for(int contador = 0; contador < 10; contador++){
 			System.out.println("valor sw contador:" +contador);
 		}//++ = somar  mais um.*/
 		
