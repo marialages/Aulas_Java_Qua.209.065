@@ -2,7 +2,7 @@ package principal;
 
 import java.util.Scanner;
 
-public class nota_media {
+public class Nota_media {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -2,7 +2,7 @@ package principal;
 
 import java.util.Scanner;
 
-public class numeros {
+public class Numeros {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -2,7 +2,7 @@ package principal;
 
 import java.util.Scanner;
 
-public class temperatura_celsius {
+public class Temperatura_celsius {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -2,7 +2,7 @@ package principal;
 
 import java.util.Scanner;
 
-public class temperatura_fahrenheit {
+public class Temperatura_fahrenheit {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

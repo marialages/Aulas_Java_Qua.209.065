@@ -2,7 +2,7 @@ package principal;
 
 import java.util.Scanner;
 
-public class valor_horas_trabalhadas {
+public class Valor_horas_trabalhadas {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

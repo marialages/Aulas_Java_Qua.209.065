@@ -2,7 +2,7 @@ package principal;
 
 import java.util.Scanner;
 
-public class soma_doisnumeros {
+public class Soma_doisnumeros {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
