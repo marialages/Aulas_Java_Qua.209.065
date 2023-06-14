@@ -1,0 +1,35 @@
+package principal;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		List<String> nomes = new ArrayList<>();
+		//adiciona dados na lista
+		nomes.add("Luan");
+		nomes.add("Maria");
+		nomes.add("Grogu");
+		nomes.add("Reri poti");
+		
+		//mostra os dados da lista
+		for(String nome : nomes) {
+			System.out.println("Nome: " + nome);
+		}
+		//remove os dados da lista
+		nomes.remove(2);
+		for(String nome : nomes) {
+			System.out.println("Nome: " + nome);
+			
+		//obtem dado da lista por indice (posicao na memoria)
+		System.out.println(nomes.get(3));
+
+		
+
+	}
+		}
+	}
+
+
